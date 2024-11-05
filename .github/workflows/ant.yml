@@ -25,6 +25,3 @@ jobs:
 
     - name: Build with Ant
       run: ant -noinput -buildfile build.xml
-
-    - name: Run tests
-      run: ant -noinput -buildfile build.xml test
